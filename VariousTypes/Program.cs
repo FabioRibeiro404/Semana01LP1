@@ -11,7 +11,10 @@ namespace VariousTypes
             long w = 3L;
             ulong q = 14UL;
 
+            char uni = '\u2605';
+
             Console.WriteLine($"{x}, {y}, {w}, {q}");
+            Console.WriteLine(uni);
         }
     }
 }
