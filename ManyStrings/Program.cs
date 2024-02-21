@@ -6,7 +6,11 @@ namespace ManyStrings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string quadrado = "Ado A Ado cada um no seu quadrado";
+            string another = "\" \u2742";
+
+            Console.WriteLine(quadrado);
+            Console.WriteLine(another);
         }
     }
 }
