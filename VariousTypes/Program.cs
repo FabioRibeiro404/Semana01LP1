@@ -6,7 +6,12 @@ namespace VariousTypes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int x = 10;
+            uint y = 23U;
+            long w = 3L;
+            ulong q = 14UL;
+
+            Console.WriteLine($"{x}, {y}, {w}, {q}");
         }
     }
 }
