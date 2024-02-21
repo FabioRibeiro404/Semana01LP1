@@ -13,8 +13,11 @@ namespace VariousTypes
 
             char uni = '\u2605';
 
+            double t = 3.141516;
+
             Console.WriteLine($"{x}, {y}, {w}, {q}");
             Console.WriteLine(uni);
+            Console.WriteLine(t);
         }
     }
 }
