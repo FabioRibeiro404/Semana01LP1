@@ -11,10 +11,15 @@ namespace ManyStrings
             string quero = "Quadrado";
             string adeus = "Adeus";
 
+            double xx = 1.23456;
+            int ii = 19;
+
             Console.WriteLine(quadrado);
             Console.WriteLine(another);
             Console.WriteLine($"Ado À Ado cada um no seu {quero}");
             Console.WriteLine("Olá" + adeus);
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p}");
         }
     }
 }
