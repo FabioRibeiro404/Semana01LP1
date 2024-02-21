@@ -19,7 +19,9 @@ namespace ManyStrings
             Console.WriteLine($"Ado À Ado cada um no seu {quero}");
             Console.WriteLine("Olá" + adeus);
             Console.WriteLine($"{xx:f2}");
-            Console.WriteLine($"{xx:p}");
+            Console.WriteLine($"{xx:p1}");
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
         }
     }
 }
