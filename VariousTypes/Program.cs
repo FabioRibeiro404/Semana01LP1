@@ -15,9 +15,12 @@ namespace VariousTypes
 
             double t = 3.141516;
 
+            bool f = false;
+
             Console.WriteLine($"{x}, {y}, {w}, {q}");
             Console.WriteLine(uni);
             Console.WriteLine(t);
+            Console.WriteLine(f);
         }
     }
 }
